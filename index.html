@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vid-Tube</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <img src="images/logo.png" class="logo-icon">
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <form id="searchForm">
+                    <input type="text" id="searchInput" placeholder="Search">
+                    <img src="images/search.png" onclick="performSearch()">
+                </form>
+                <img src="images/voice-search.png" class="mic-icon">
+            </div>
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <img src="https://yt3.ggpht.com/yti/ANjgQV_9j888fHdF8PuqReZqSZ4xOhWrvhkqxNcJ_jVhGKw=s88-c-k-c0x00ffffff-no-rj" class="user-icon">
+        </div>
+    </nav>
+    
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="shortcut-links">
+            <a href="https://www.youtube.com/"><img src="images/home.png"><p>Home</p></a>
+            <a href="https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl"><img src="images/explore.png"><p>Explore</p></a>
+            <a href="https://www.youtube.com/feed/subscriptions"><img src="images/subscriprion.png"><p>Subscription</p></a>
+            <a href=""><img src="images/library.png"><p>Library</p></a>
+            <a href="https://www.youtube.com/feed/history"><img src="images/history.png"><p>History</p></a>
+            <a href=""><img src="images/messages.png"><p>Messages</p></a>
+            <a href=""><img src="images/show-more.png"><p>Show More</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>SUBSCRIBED</h3>
+            <a href="https://www.youtube.com/@FlyingBeast320"><img src="https://yt3.googleusercontent.com/ytc/APkrFKbsg8lOznBCncVidomV0X_EPk3LFE3pS1RYAkB8fyc=s176-c-k-c0x00ffffff-no-rj"><p>Flying Beast </p></a>
+            <a href="https://www.youtube.com/@IShowSpeed"><img src="https://yt3.googleusercontent.com/ytc/APkrFKaa5t6txFIe3gi2jPp_cvy7uO595gH7qOdApKFIjg=s176-c-k-c0x00ffffff-no-rj"><p>IShowSpeed</p></a>
+            <a href="https://www.youtube.com/@ApnaCollegeOfficial"><img src="https://yt3.googleusercontent.com/00yIYVKjmFvR7sFZXmP5aMq1u0P7ZcLfnDW27A7zRD1hTqcWLwYn0-o_5rGkK2eKfCf43ueE7Q=s160-c-k-c0x00ffffff-no-rj"><p>Apna College</p></a>
+            <a href="https://www.youtube.com/@arpitbaala"><img src="https://yt3.googleusercontent.com/ytc/APkrFKbnTb1aDIfZ4qkrSsFanC8mXoJGt4_F7XdJ4KFS=s176-c-k-c0x00ffffff-no-rj"><p>Arpit Bala</p></a>
+            <a href="https://www.youtube.com/@MrBeast"><img src="https://yt3.googleusercontent.com/ytc/APkrFKbAfC_5NBQ3CM6Lyd2zXUFbC4mym1GCRhmpIwcMXg=s176-c-k-c0x00ffffff-no-rj"><p>MrBeast </p></a>
+         </div>
+    </div>
+
+
+<!---------------main--------->
+
+<div class="container">
+    <div class="banner">
+        <img src="/images/banner.png">
+    </div>
+
+    <div class="list-container">
+        <div class="vid-list">
+            <a href="play-video.html"><img src="https://img.freepik.com/free-photo/maldives-island_1203-7350.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.ggpht.com/yti/ANjgQV_9j888fHdF8PuqReZqSZ4xOhWrvhkqxNcJ_jVhGKw=s88-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="play-video.html">Demo Video</a>
+                    <p>Lake Videos</p>
+                    <p>15k Views &bull; 2 days</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="https://youtu.be/vXB3IS3i5Dk"><img src="https://i3.ytimg.com/vi/vXB3IS3i5Dk/maxresdefault.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/ytc/APkrFKYkoQjpDEmoIpcsVN-pfxYbfFzWYDNkYm3FJRGRJA=s176-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="">THE END IS HERE | SHOW DAY FINALE</a>
+                    <p>Chris Bumstead</p>
+                    <p>
+                        1.1M views &bull; 3 weeks ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-list">
+            <a href="https://youtu.be/0e3GPea1Tyg"><img src="https://i3.ytimg.com/vi/0e3GPea1Tyg/maxresdefault.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/ytc/APkrFKbAfC_5NBQ3CM6Lyd2zXUFbC4mym1GCRhmpIwcMXg=s176-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="">$456,000 Squid Game In Real Life</a>
+                    <p>MrBeast</p>
+                    <p>525M views &bull; 1 year ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-list">
+            <a href="https://www.youtube.com/watch?v=gNGa9p_x0EI&t=16s&pp=ygURZ3NvYyAyMDI0IHJvYWRtYXA%3D"><img src="https://i3.ytimg.com/vi/gNGa9p_x0EI/maxresdefault.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/00yIYVKjmFvR7sFZXmP5aMq1u0P7ZcLfnDW27A7zRD1hTqcWLwYn0-o_5rGkK2eKfCf43ueE7Q=s160-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="">GSoC 2024 Roadmap | Google Summer of Code | Complete Guide</a>
+                    <p>Apna College</p>
+                    <p>354k Views &bull; 1 month ago</p>
+                </div>
+            </div>
+        </div>
+        <div class="vid-list">
+            <a href="https://www.youtube.com/watch?v=jtG54HPysw4&pp=ygUUZGVzaCBrYSBkaG9uaSB0ZWFzZXI%3D"><img src="https://i3.ytimg.com/vi/jtG54HPysw4/maxresdefault.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/ytc/APkrFKbsg8lOznBCncVidomV0X_EPk3LFE3pS1RYAkB8fyc=s176-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="">DESH KA DHONI TEASER</a>
+                    <p>Flying Beast</p>
+                    <p>2.6M Views &bull; 3 months ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-list">
+            <a href="https://www.youtube.com/watch?v=yDqk6KJVyP8&pp=ygUSdGhlIGxlZ2VuZCBvZiB6eXp6"><img src="https://i3.ytimg.com/vi/yDqk6KJVyP8/maxresdefault.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/ytc/APkrFKaHGALXSetef9AlZ1zr756trXYHP2kucJPQ308QI9I=s176-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="">The Legend of ZYZZ</a>
+                    <p>Josh Brett</p>
+                    <p>5.9M Views &bull; 2 years ago</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="vid-list">
+            <a href="https://www.youtube.com/watch?v=kffacxfA7G4&pp=ygUJYmFieSBzb25n"><img src="https://i3.ytimg.com/vi/kffacxfA7G4/maxresdefault.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/ytc/APkrFKZonlxO-ZANua4KbeZCzd0Oopd0gEPClEmL4Ued8A=s176-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="">Justin Bieber - Baby ft. Ludacris</a>
+                    <p>Justin Bieber</p>
+                    <p>3B views &bull; 13 years ago</p>
+                </div>
+            </div>
+        </div>
+          
+        <div class="vid-list">
+            <a href="https://www.youtube.com/watch?v=pCZgFQOBv2o&pp=ygUfYmx1ZW1vb24gOC4wIGJlbm5ldHQgdW5pdmVyc2l0eQ%3D%3D"><img src="https://i3.ytimg.com/vi/pCZgFQOBv2o/maxresdefault.jpg" class="thumbnail"></a>
+            <div class="flex-div">
+                <img src="https://yt3.googleusercontent.com/9p7jxj1zZXpvt7MEnwq1ge0otFZFCZ0aXxld5RJz1cC2Z7fwil1mgT5-BqsXikkwAXfz8w7r=s160-c-k-c0x00ffffff-no-rj">
+                <div class="vid-info">
+                    <a href="">Bluemoon 🌙 8.0 In Bennett University| #bennettuniversity | fresher's Dj night party 2023</a>
+                    <p>Jotish Yadav</p>
+                    <p>155 Views &bull;  4 weeks ago</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html> 
